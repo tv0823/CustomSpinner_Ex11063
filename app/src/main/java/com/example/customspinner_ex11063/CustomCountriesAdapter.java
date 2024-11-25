@@ -13,10 +13,10 @@ public class CustomCountriesAdapter extends BaseAdapter {
     private Context context;
     private LayoutInflater inflater;
 
-    public CustomCountriesAdapter(Country[] countries, Context context, LayoutInflater inflater) {
+    public CustomCountriesAdapter(Context context, Country[] countries) {
         this.countries = countries;
         this.context = context;
-        this.inflater = inflater;
+        this.inflater = (LayoutInflater.from(context));
     }
 
     @Override

@@ -26,8 +26,7 @@
         <Spinner
             android:id="@+id/countries_spin"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="10" />
+            android:layout_height="100dp" />
 
         <Space
             android:layout_width="match_parent"
@@ -35,11 +34,12 @@
             android:layout_weight="30" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/country_details"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="30"
-            android:text="TextView" />
+            android:text="Country details:"
+            android:textSize="20sp" />
 
         <Space
             android:layout_width="match_parent"
